@@ -1,0 +1,2 @@
+#prueba del ejercicio 2. Supongo que tiene que devolver true porque esta comparando dos objetos iguales.
+puts 'TTPS Ruby'.object_id == 'TTPS Ruby'.object_id
