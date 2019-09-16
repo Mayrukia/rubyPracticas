@@ -1,0 +1,5 @@
+def reemplazar(str)
+  @start = str.gsub"{","/n"
+  @end = str.gsub"}","/nend"
+end
+puts reemplazar"{{h{o{l}a}}"
