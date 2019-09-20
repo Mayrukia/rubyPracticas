@@ -1,0 +1,2 @@
+puts "Para conocer los metodos de una clase, se deb mandar el mensaje methods a la clase xej String.methiods da:"
+puts String.methods

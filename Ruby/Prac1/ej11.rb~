@@ -1,0 +1,6 @@
+def root_13(string)
+ a=string.tr("A-Za-z0-9","N-zA-Mn-za-m!-$")
+ puts a
+end
+
+root_13("Bienvenidos s la cursada de TTPS opcion Ruby 2019")

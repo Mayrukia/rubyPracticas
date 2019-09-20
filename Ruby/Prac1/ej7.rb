@@ -5,8 +5,8 @@ def limpiar_blancos(string)
   puts "Falta hacer............."
 end
 def convertir_ascii(string)
-  string.each_byte{|c| print c}    #enumerator
-end
+  string.each_byte{|c| puts c}    #enumerator
+  end
 def cambiar(string)
   puts string.tr('aeiou','43106')
 end
